@@ -1,0 +1,17 @@
+! minimal history columns for zeta extraction (one row per model; history_interval=1 for strip runs)
+model_number
+num_zones
+star_age
+log_dt
+star_mass
+star_mdot
+radius
+log_R
+log_Teff
+log_L
+log_g
+log_center_T
+log_center_Rho
+center_degeneracy
+log_LH
+log_Lnuc

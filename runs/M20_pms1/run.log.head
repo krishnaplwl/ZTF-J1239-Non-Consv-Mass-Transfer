@@ -1,0 +1,84 @@
+ reading user weak rate file /home/krishna_paliwal/sdks/MESA/mesa-25.12.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r25.12.1
+ WARNING: Failed to find colors namelist in file: inlist
+
+
+ The terminal output contains the following information
+
+      'step' is the number of steps since the start of the run,
+      'lg_dt' is log10 timestep in years,
+      'age_yr' is the simulated years since the start run,
+      'lg_Tcntr' is log10 center temperature (K),
+      'lg_Dcntr' is log10 center density (g/cm^3),
+      'lg_Tmax' is log10 max temperature (K),
+      'Teff' is the surface temperature (K),
+      'lg_R' is log10 surface radius (Rsun),
+      'lg_L' is log10 surface luminosity (Lsun),
+      'lg_LH' is log10 total PP and CNO hydrogen burning power (Lsun),
+      'lg_L3a' is log10 total triple-alpha helium burning power (Lsun),
+      'lg_gsurf' is log10 surface gravity,
+      'lg_Lnuc' is log10 nuclear power (Lsun),
+      'lg_Lneu' is log10 total neutrino power (Lsun),
+      'lg_Lphoto' is log10 total photodisintegration (Lsun),
+      'Mass' is the total stellar baryonic mass (Msun),
+      'lg_Mdot' is log10 magnitude of rate of change of mass (Msun/year),
+      'lg_Dsurf' is log10 surface density (g/cm^3),
+      'H_env' is the amount of mass where H is dominant,
+      'He_core' is the largest mass where He is dominant.
+      'CO_core' is the largest mass where CO is dominant.
+      'H_cntr' is the center H1 mass fraction,
+      'He_cntr' is the center He4 mass fraction,
+      'C_cntr' is the center C12 mass fraction,
+      'N_cntr' is the center N14 mass fraction,
+      'O_cntr' is the center O16 mass fraction,
+      'Ne_cntr' is the center Ne20 mass fraction,
+      'gam_cntr' is the center plasma interaction parameter,
+      'eta_cntr' is the center electron degeneracy parameter,
+      'zones' is the number of zones in the current model,
+      'iters' is the number of solver iterations for the current step,
+      'retry' is the number of step retries required during the run,
+      'dt_limit' is an indication of what limited the timestep.
+
+ All this and more are saved in the LOGS directory during the run.
+ create pre-main-sequence model
+                                          species  mass           8    3.0000000000000002D-02
+
+                                        relax_num_steps         300
+
+ hydro_solver_step returned ierr          -1
+ s% model_number           1
+ nz        1583
+ s% num_retries           0
+
+ retry: get_T_tau -- L <= 0       1
+        200   5.477447   1331.572 -19.299382 -19.299382   0.030000   0.030000   0.700000   0.001010   0.280000  -1.660281    560      1
+-5.0000E+00   5.477392  -0.029490 -99.000000 -20.697139 -99.000000   0.000000   0.280000   0.009381   0.020000   0.642992      3
+ 1.9850E-03  -0.434190  -2.606828 -99.000000 -99.000000  -5.487268   0.000000   0.003447   0.002085   0.020000  0.000E+00        max_dt
+
+
+ finished doing relax num steps
+
+ read history_columns.list
+ read profile_columns.list
+                             set_initial_number_retries           0
+                                       relax_mass_scale    1.9091799999999999D-02
+
+                                       relax_mass_scale
+                                      current star_mass    3.0000000000000002D-02
+                                      relax to new_mass    1.9091799999999999D-02
+                                          dlgm_per_step    1.0000000000000000D-03
+
+
+ finished doing relax mass scale
+
+ net name basic.net
+                                               tau_base    1.0000000000000000D+02
+                                      atm_option: table
+ kap_option gs98
+ kap_CO_option gs98_co
+ kap_lowT_option lowT_fa05_gs98
+                                        OMP_NUM_THREADS           2
+
+
+        200   5.313103   2335.325 -21.610532 -21.610532   0.019092   0.019092   0.700000   0.001010   0.280000  -1.529922    531      0
+ 3.0920E+00   5.313103  -0.019525 -99.000000 -23.008342 -99.000000   0.00

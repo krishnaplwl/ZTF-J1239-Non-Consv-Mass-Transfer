@@ -1,0 +1,52 @@
+&star_job
+
+   load_saved_model = .true.
+   load_model_filename = '../../models/M60_ZHI_1Gyr.mod'
+   set_initial_model_number = .true.
+   initial_model_number = 0
+
+   save_model_when_terminate = .true.
+   save_model_filename = '../../models/M60_ZHI_A1_R1e-7_end.mod'
+   history_columns_file = 'history_columns.list'
+   profile_columns_file = 'profile_columns.list'
+   pgstar_flag = .false.
+
+/ ! end of star_job namelist
+
+&eos
+/ ! end of eos namelist
+
+&kap
+   use_Type2_opacities = .true.
+   Zbase = 0.03
+/ ! end of kap namelist
+
+&controls
+
+   initial_z = 0.03
+   atm_option = 'table'
+   atm_table = 'tau_100'
+
+   energy_eqn_option = 'dedt'
+   use_gold_tolerances = .true.
+   varcontrol_target = 1d-4
+   mesh_delta_coeff = 1.0
+
+   max_age = 1.50050000d+09
+   max_years_for_timestep = 1.20000000d+06
+
+   mass_change = -9.54590000d-11   ! Msun/yr  (= -1e-07 MJup/yr)
+   star_mass_min_limit = 9.54590000d-03   ! stop at 10 MJup
+
+   history_interval = 1
+   write_profiles_flag = .false.
+   photo_interval = 500
+   terminal_interval = 200
+   max_model_number = 400000
+   log_directory = 'LOGS'
+   photo_directory = 'photos'
+
+/ ! end of controls namelist
+
+&pgstar
+/ ! end of pgstar namelist

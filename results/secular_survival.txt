@@ -1,0 +1,25 @@
+candidate  f   channels/eta   -> fate, lifetime[Gyr], final Md, final P[min], Mdot_start, Mdot_at_1Gyr
+ 55/80 f=0.1 GW        -> alive at t_max         life=13.800 Gyr Md_end= 23.8 P_end= 119.8 min Mdot0=7.04e-07 Mdot(1Gyr)=5.40e-09
+ 55/80 f=0.1 GW+MB 0.05-> donor exhausted (<10 M life= 1.538 Gyr Md_end= 10.0 P_end= 224.1 min Mdot0=3.42e-06 Mdot(1Gyr)=1.53e-08
+ 55/80 f=0.1 GW+MB 0.15-> donor exhausted (<10 M life= 0.524 Gyr Md_end= 10.0 P_end= 224.1 min Mdot0=8.85e-06 Mdot(1Gyr)=4.76e-08
+ 55/80 f=0.1 GW+MB 1.0 -> donor exhausted (<10 M life= 0.079 Gyr Md_end= 10.0 P_end= 224.1 min Mdot0=5.50e-05 Mdot(1Gyr)=3.17e-07
+ 55/80 f=0.3 GW        -> alive at t_max         life=13.800 Gyr Md_end= 24.3 P_end= 118.0 min Mdot0=9.43e-08 Mdot(1Gyr)=5.64e-09
+ 55/80 f=0.3 GW+MB 0.05-> donor exhausted (<10 M life= 1.543 Gyr Md_end= 10.0 P_end= 224.5 min Mdot0=4.58e-07 Mdot(1Gyr)=1.59e-08
+ 55/80 f=0.3 GW+MB 0.15-> donor exhausted (<10 M life= 0.526 Gyr Md_end= 10.0 P_end= 224.5 min Mdot0=1.19e-06 Mdot(1Gyr)=4.96e-08
+ 55/80 f=0.3 GW+MB 1.0 -> donor exhausted (<10 M life= 0.080 Gyr Md_end= 10.0 P_end= 224.5 min Mdot0=7.37e-06 Mdot(1Gyr)=3.30e-07
+ 50/70 f=0.15 GW        -> unstable at t=0        life= 0.000 Gyr Md_end= 50.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 50/70 f=0.15 GW+MB 0.05-> unstable at t=0        life= 0.000 Gyr Md_end= 50.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 50/70 f=0.15 GW+MB 0.15-> unstable at t=0        life= 0.000 Gyr Md_end= 50.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 50/70 f=0.15 GW+MB 1.0 -> unstable at t=0        life= 0.000 Gyr Md_end= 50.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 50/70 f=0.3 GW        -> alive at t_max         life=13.800 Gyr Md_end= 22.9 P_end= 113.8 min Mdot0=1.08e-07 Mdot(1Gyr)=4.89e-09
+ 50/70 f=0.3 GW+MB 0.05-> donor exhausted (<10 M life= 1.162 Gyr Md_end= 10.0 P_end= 207.5 min Mdot0=7.14e-07 Mdot(1Gyr)=1.81e-08
+ 50/70 f=0.3 GW+MB 0.15-> donor exhausted (<10 M life= 0.394 Gyr Md_end= 10.0 P_end= 207.5 min Mdot0=1.92e-06 Mdot(1Gyr)=5.93e-08
+ 50/70 f=0.3 GW+MB 1.0 -> donor exhausted (<10 M life= 0.060 Gyr Md_end= 10.0 P_end= 207.5 min Mdot0=1.22e-05 Mdot(1Gyr)=3.95e-07
+ 52/70 f=0.2 GW        -> unstable at t=0        life= 0.000 Gyr Md_end= 52.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 52/70 f=0.2 GW+MB 0.05-> unstable at t=0        life= 0.000 Gyr Md_end= 52.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 52/70 f=0.2 GW+MB 0.15-> unstable at t=0        life= 0.000 Gyr Md_end= 52.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 52/70 f=0.2 GW+MB 1.0 -> unstable at t=0        life= 0.000 Gyr Md_end= 52.0 P_end=  57.4 min Mdot0=nan Mdot(1Gyr)=nan
+ 52/70 f=0.4 GW        -> alive at t_max         life=13.800 Gyr Md_end= 23.7 P_end= 114.8 min Mdot0=1.16e-07 Mdot(1Gyr)=5.13e-09
+ 52/70 f=0.4 GW+MB 0.05-> donor exhausted (<10 M life= 1.242 Gyr Md_end= 10.0 P_end= 215.4 min Mdot0=7.21e-07 Mdot(1Gyr)=1.75e-08
+ 52/70 f=0.4 GW+MB 0.15-> donor exhausted (<10 M life= 0.421 Gyr Md_end= 10.0 P_end= 215.4 min Mdot0=1.93e-06 Mdot(1Gyr)=5.78e-08
+ 52/70 f=0.4 GW+MB 1.0 -> donor exhausted (<10 M life= 0.064 Gyr Md_end= 10.0 P_end= 215.4 min Mdot0=1.22e-05 Mdot(1Gyr)=3.85e-07
