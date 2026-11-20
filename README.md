@@ -1,6 +1,6 @@
 # ZTF J1239+8347: non-conservative mass transfer in a brown-dwarf binary
 
-Code, MESA run data, figures, tables and manuscript for
+Code, MESA run data, figures, tables for
 *"Can Non-Conservative Mass Transfer Stabilise the Brown-Dwarf Binary ZTF J1239+8347?"* (K. Paliwal).
 
 ## Layout
